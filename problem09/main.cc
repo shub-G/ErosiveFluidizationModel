@@ -67,7 +67,7 @@ int main(int argc, char** argv)
 	    			 "of unsaturated fluid flow unsing DELAUNEY TRIANGULATED MESH"
 	    		  << std::endl;
 		#else
-	    std::cout << "Hello World! This is PROBLEM09 of project LandscapeEvolution." << std::endl;
+	    std::cout << "Hello World! This is PROBLEM09 of project ErosiveFluidizationModel." << std::endl;
 	    std::cout << "This problem considers decoupled FV implementation "
 	    			 "of unsaturated fluid flow and soil erosion."
 	    		  << std::endl;
@@ -95,7 +95,7 @@ int main(int argc, char** argv)
 
         /**************************************************************************************************/
 	    // DUNE MODEL PATH
-	    const std::string MODEL_PATH = "/home/sgupta/dune_2_8/LandscapeEvolution/src/";
+	    const std::string MODEL_PATH = "/home/<YOUR_HOME>/dune_2_8/ErosiveFluidizationModel/src/";
 	    // PROBLEM NAME
 	    const std::string PROBLEM_NAME = "problem09/";
 	    // INPUT PATH NAME
